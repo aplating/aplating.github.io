@@ -157,8 +157,7 @@ nav a:hover {
 
 /* gallery layout 3 */
 .my-gallery3 {
-    width: 1200px;
-    min-height: 5300px; /* Masonry needs this. Masonry JS Overlapping Items: By the time masonry is called, your images haven't loaded. */
+    /* width: 1200px; */
     margin: 0 auto;
     background-color: black;
     color: white;
@@ -189,7 +188,6 @@ nav a:hover {
 only screen and (max-device-width : 1199px){
     .my-gallery3 {
         width: 1000px;
-        min-height: 6693px;
     }
 }
  
@@ -197,7 +195,6 @@ only screen and (max-device-width : 1199px){
 only screen and (max-device-width : 999px){
     .my-gallery3 {
         width: 800px;
-        min-height: 8377px;
     }
 }
  
@@ -205,7 +202,6 @@ only screen and (max-device-width : 999px){
 only screen and (max-device-width : 799px){
     .my-gallery3 {
         width: 600px;
-        min-height: 11153px;
     }
 }
  
@@ -213,7 +209,6 @@ only screen and (max-device-width : 799px){
 only screen and (max-device-width : 599px){
     .my-gallery3 {
         width: 400px;
-        min-height: 16640px;
     }
 }
  
@@ -221,7 +216,6 @@ only screen and (max-device-width : 599px){
 only screen and (max-device-width : 399px){
     .my-gallery3 {
         width: 200px;
-        min-height: 33247px;
     }
 }
 

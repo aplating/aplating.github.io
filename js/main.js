@@ -205,8 +205,12 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 initPhotoSwipeFromDOM('.my-gallery3');
 
 
-var msnry = new Masonry( '.my-gallery3', {
-  // options
-  itemSelector: 'figure',
-  columnWidth: 200
-});
+function xxx() {
+    new Masonry( '.my-gallery3', {
+      // options
+      itemSelector: 'figure',
+      columnWidth: 200
+    });
+}
+window.onload=xxx;
+// Masonry needs this. Masonry JS Overlapping Items: By the time masonry is called, your images haven't loaded.
