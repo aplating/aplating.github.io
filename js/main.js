@@ -204,6 +204,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 // execute above function
 initPhotoSwipeFromDOM('.my-gallery3');
 
+xxx();
 
 function xxx() {
     new Masonry( '.my-gallery3', {
