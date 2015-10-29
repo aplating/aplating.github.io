@@ -154,11 +154,39 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+a :hover {
+    opacity: .7;
+}
+
+.border {
+    border: solid #808080;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.link-button {
+    padding: 5px 20px;
+    margin: 10px;
+}
+.link-button a {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #808080;
+    color: blue;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 0px 10px;
+}
+.link-button a:hover {
+    color: white;
+    background-color: black;
+}
 
 /* gallery layout 3 */
 .my-gallery3 {
     /* width: 1200px; */
     margin: 0 auto;
+    padding: 10px;
     background-color: black;
     color: white;
 }
@@ -227,7 +255,7 @@ only screen and (max-device-width : 399px){
 }
 .my-gallery img {
   width: 100%;
-  height: auto;
+  height: 112px;
 }
 .my-gallery figure {
   display: block;
@@ -235,9 +263,12 @@ only screen and (max-device-width : 399px){
   margin: 0 5px 5px 0;
   width: 150px;
 }
-/* .my-gallery figcaption {
-  display: none;
-} */
+.my-gallery figcaption {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-height: 26px;
+}
 .my-gallery img {
     max-width: 100%;
     -webkit-border-radius: 5px;
