@@ -16,7 +16,7 @@ function getImg(url) {
 
         var temp = document.createElement('div');
         temp.innerHTML = xhr.responseText;
-        console.log(temp);
+        //console.log(temp);
 
         var figures = temp.getElementsByTagName('figure');
         for (var i = 0; i < figures.length; i++)
