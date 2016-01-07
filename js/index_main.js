@@ -202,4 +202,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('#append');
+initPhotoSwipeFromDOM('.my-gallery');
