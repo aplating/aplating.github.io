@@ -13,14 +13,14 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <script type="text/javascript" src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" defer></script>
+        <!--[if lt IE 9]>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/vendor/IE9.js"></script>
+        <![endif]-->
         
         <meta name="msvalidate.01" content="25F4F56B54B715B0CC7E2BF4CDD2C1B4" />
         <meta name="google-site-verification" content="s8lxJwCR96jXlcchsV4NOEaKX_Uumu5xHUkiSp3Ns18" />
 
-        <!--[if lt IE 9]>
-        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-        <![endif]-->
 
         <!-- Core CSS file -->
         <link rel="stylesheet" href="vendor/photoswipe.css"> 
@@ -32,10 +32,10 @@
         <link rel="stylesheet" href="vendor/default-skin/default-skin.css"> 
 
         <!-- Core JS file -->
-        <script type="text/javascript" src="vendor/photoswipe.min.js" defer></script> 
+        <script src="vendor/photoswipe.min.js"></script> 
 
         <!-- UI JS file -->
-        <script type="text/javascript" src="vendor/photoswipe-ui-default.min.js" defer></script>
+        <script src="vendor/photoswipe-ui-default.min.js"></script>
     </head>
     <body>
 
@@ -63,7 +63,7 @@
                     <section>
                         <h2>成品照片：</h2>
                         <div>（點圖可放大）</div>
-                        <div class="my-gallery3" itemscope itemtype="http://schema.org/ImageGallery"
+                        <div class="my-gallery photoswipe-support" itemscope itemtype="http://schema.org/ImageGallery"
 >
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
    <a href="original/dsc00974_21505124914_o.jpg" itemprop="contentUrl" data-size="3648x2736">
@@ -522,21 +522,15 @@
 
                 </div>
                 
-                <aside style="display:none">
-                    <h3>aside</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-                </aside>
-
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>Copyright © 2015 新品真空鍍金股份有限公司. All rights reserved.</h3>
+                <h3>Copyright © 2017 新品真空鍍金股份有限公司. All rights reserved.</h3>
             </footer>
         </div>
         
-        <script src="vendor/masonry.pkgd.min.js" defer></script>
         <script src="js/main.js" defer></script>
 
         <!-- Google Tag Manager -->
